@@ -3,7 +3,7 @@
   --main-font: 'Inter-Variable', sans-serif;
   --font-weight-text: 410;
   --font-weight-title: 715;
-  --accent-font: 'PressStart2P-Regular', serif;
+  --accent-font: 'PressStart2P', monospace;
   --gradient:
     repeating-linear-gradient(
       90deg,
@@ -30,12 +30,4 @@
 
   --contour-fill: #000;
   --animation-fill-color: red;
-}
-
-@media(width <= 375px) {
-  .memory {
-    display: grid;
-    grid-auto-flow: row;
-    block-size: 84px;
-  }
 }
